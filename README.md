@@ -1037,7 +1037,7 @@ g-code).
 > of how they're being used. _**Keep that in mind as you integrate this into
 > your own setup.**_
 
-The following events are fired during during the printing process, and the
+The following events are fired during the printing process, and the
 `GCODE_ON_PRINT_STATUS` command associates custom gcode with these events. This
 custom gcode can be used to set LEDs, emit beeps, or perform any other
 operations you may want to run at a given status in the printing process.
